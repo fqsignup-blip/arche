@@ -14,6 +14,8 @@ ansi_art='                 ▄▄▄
 clear
 echo -e "\n$ansi_art\n"
 
+OMARCHY_REPO="fqsignup-blip/arche"
+
 sudo pacman -Sy --noconfirm --needed git
 
 # Use custom repo if specified, otherwise default to basecamp/omarchy
