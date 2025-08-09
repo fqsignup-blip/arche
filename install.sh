@@ -41,17 +41,17 @@ source $OMARCHY_INSTALL/config/network.sh
 source $OMARCHY_INSTALL/config/power.sh
 source $OMARCHY_INSTALL/config/timezones.sh
 source $OMARCHY_INSTALL/config/login.sh
-source $OMARCHY_INSTALL/config/nvidia.sh
+# source $OMARCHY_INSTALL/config/nvidia.sh
 
 # Development
 show_logo decrypt 920
 show_subtext "Installing terminal tools [2/5]"
 source $OMARCHY_INSTALL/development/terminal.sh
-source $OMARCHY_INSTALL/development/development.sh
-source $OMARCHY_INSTALL/development/nvim.sh
-source $OMARCHY_INSTALL/development/ruby.sh
-source $OMARCHY_INSTALL/development/docker.sh
-source $OMARCHY_INSTALL/development/firewall.sh
+# source $OMARCHY_INSTALL/development/development.sh
+# source $OMARCHY_INSTALL/development/nvim.sh
+# source $OMARCHY_INSTALL/development/ruby.sh
+# source $OMARCHY_INSTALL/development/docker.sh
+# source $OMARCHY_INSTALL/development/firewall.sh
 
 # Desktop
 show_logo slice 60
@@ -60,9 +60,9 @@ source $OMARCHY_INSTALL/desktop/desktop.sh
 source $OMARCHY_INSTALL/desktop/hyprlandia.sh
 source $OMARCHY_INSTALL/desktop/theme.sh
 source $OMARCHY_INSTALL/desktop/bluetooth.sh
-source $OMARCHY_INSTALL/desktop/asdcontrol.sh
+# source $OMARCHY_INSTALL/desktop/asdcontrol.sh
 source $OMARCHY_INSTALL/desktop/fonts.sh
-source $OMARCHY_INSTALL/desktop/printer.sh
+# source $OMARCHY_INSTALL/desktop/printer.sh
 
 # Apps
 show_logo expand
